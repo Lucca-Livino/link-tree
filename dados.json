@@ -1,10 +1,23 @@
 {
   "usuarios": [
-    { "id": "1", "email": "lucca.f.livino@gmail.com", "nome": "Lucca" },
-    { "id": "2", "email": "ana.souza@example.com", "nome": "Ana Souza" },
-    { "id": "3", "email": "marcos.lima@example.com", "nome": "Marcos Lima" },
-    { "id": "4", "email": "juliana.mendes@example.com", "nome": "Juliana Mendes" },
-    { "id": "5", "email": "carlos.silva@example.com", "nome": "Carlos Silva" },
-    { "id": "6", "email": "fernanda.alves@example.com", "nome": "Fernanda Alves" }
+    { "id": "1", 
+      "foto_url": "Emilia_perfil.png", 
+      "nome": "Emilia Andrade",
+      "foto_fundo": "linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('/Emilia_background.jpg')",
+      "cor_botao": "#6DA9F3",
+      "hover_botao": "#3B81D8",
+      "cor_texto": "#F1F1F1",
+      "border":"border-radius: 4px",
+      "links": [
+          { "id": "7381", "tipo": "Blog", "url": "https://blog-da-emilia-xyz123.com.br" },
+          { "id": "1945", "tipo": "GitLab", "url": "https://gitlab.com/emilia-abc456" },
+          { "id": "6209", "tipo": "GitHub", "url": "https://github.com/emilia-def789" },
+          { "id": "3572", "tipo": "Linkedin", "url": "https://linkedin.com/in/emilia-ghi0" },
+          { "id": "8814", "tipo": "Instagram", "url": "https://instagram.com/emilia.jkl1" },
+          { "id": "4027", "tipo": "E-mail", "url": "emilia.mno2@example.com" }
+      ],
+      "qr_code": "../Code_azul.png"
+    }
+    
   ]
 }
