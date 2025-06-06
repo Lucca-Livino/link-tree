@@ -3,7 +3,7 @@
     { "id": "1", 
       "foto_url": "Emilia_perfil.png", 
       "nome": "Emilia Andrade",
-      "foto_fundo": "linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('/Emilia_background.jpg')",
+      "foto_fundo": "linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('public/Emilia_background.jpg')",
       "cor_botao": "#6DA9F3",
       "hover_botao": "#3B81D8",
       "cor_texto": "#F1F1F1",
