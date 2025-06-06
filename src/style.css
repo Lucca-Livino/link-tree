@@ -4,7 +4,7 @@
 }
 
 .container-imagem {
-  height: 100vw;
+  height: 885px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -16,4 +16,36 @@
   align-items: center;
   padding-top: 80px;
   margin: 0 auto;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.container-botao {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.botao {
+  height: 60px;
+  width: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
 }
