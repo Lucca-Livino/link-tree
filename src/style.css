@@ -4,7 +4,7 @@
 }
 
 .container-imagem {
-  height: 885px;
+  height: 1080px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -16,6 +16,7 @@
   align-items: center;
   padding-top: 80px;
   margin: 0 auto;
+
 }
 
 h1{
@@ -38,7 +39,6 @@ h1{
   width: 300px;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
   text-decoration: none;
   border-radius: 10px;
@@ -48,4 +48,12 @@ h1{
 a{
   text-decoration: none;
   cursor: pointer;
+}
+
+.icone{
+  margin-left: 24px;
+}
+
+.texto{
+  margin-left: 15px;
 }

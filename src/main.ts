@@ -15,16 +15,18 @@ const imgContainer = document.querySelector<HTMLDivElement>("#Cimg")
 if (imgContainer && id !== null) {
   imgContainer.innerHTML = `
     <div class="container-imagem" style="background-image: ${body[idIndex].foto_fundo};">
-      <img src="${body[idIndex].foto_url}" alt="Foto de perfil" class="perfil" width="100px" height="100px">
+      <img src="${body[idIndex].foto_url}" alt="Foto de perfil" class="perfil" width="100px" height="100px";>
       <h1>${body[idIndex].nome}</h1>
       <div class="container-botao">
         <a href="${body[idIndex].links[0].url}">
           <div class="botao" style="background-color: ${body[idIndex].cor_botao}; border-radius: ${body[idIndex].border};">
-            <p>Blog</p>
+          <img src="/Blog.png" class= "icone">
+            <p class="texto">Blog</p>
           </div>
         </a>
         <a href="${body[idIndex].links[1].url}">
           <div class="botao" style="background-color: ${body[idIndex].cor_botao}; border-radius: ${body[idIndex].border};">
+            <img src="/Blog.png" class= "icone">
             <p>GitLab</p>
           </div>
         <a href="${body[idIndex].links[2].url}">
