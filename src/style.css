@@ -57,3 +57,14 @@ a{
 .texto{
   margin-left: 15px;
 }
+
+.qrcode {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.botao {
+  transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
